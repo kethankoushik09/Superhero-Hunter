@@ -1,22 +1,22 @@
 # Superhero Hunter
 
-Superhero Hunter is a web application that allows users to search for superheroes, view their details, and get information about their powers and abilities using the Marvel API.
-
-## Live Demo
-
-You can check out the live version of the application at: [Superhero Hunter Live Demo](https://superhero-hunter-demo.com)
+Welcome to the Superhero Hunter project! This application allows users to explore superheroes, search for their favorites, and manage a list of favorite superheroes with persistent storage.
 
 ## Features
 
-- Search for superheroes by name
-- View detailed information about each superhero
-- Get a list of superheroes with their abilities and powers
+- **Home Page**: 
+  - Fetches and displays a list of superheroes (characters).
+  - Includes a search bar to filter superheroes based on the search query.
+  - Each superhero has a favorite button to add it to "My Favorite Superheroes" list.
+  - Clicking on a superhero will navigate to a detailed superhero page.
 
-## Installation
+- **Superhero Page**:
+  - Displays detailed information about the selected superhero including their name, photo, bio, and other details such as comics, events, series, and stories.
 
-To get started with the project locally, follow these steps:
+- **My Favorite Superheroes Page**:
+  - Shows a list of all favorite superheroes.
+  - The list is persistent, maintaining the same superheroes before and after closing the browser.
+  - Includes a remove button to delete superheroes from the favorites list.
 
-1. Clone the repository:
 
-   ```bash
-   git clone https://github.com/kethankoushik09/Superhero-Hunter.git
+# Live Demo
